@@ -69,3 +69,38 @@ article {
     border: solid 5px black;
     width: 9%;
 }
+
+/* media queries para tablet*/
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        width: 95vh;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: start;
+    }
+
+    article {
+        height: 100px;
+    }
+
+    .a {
+        width: 40%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .b {
+        width: 55%;
+        order: 3;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .c {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
