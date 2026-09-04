@@ -1,0 +1,71 @@
+/* Selectores universales */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+ul,
+ol {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Heaer */
+
+header {
+    width: 100%;
+    height: 150px;
+    border: 5px solid black;
+    background-color: aqua;
+    margin-bottom: 15px;
+
+}
+
+/* Container */
+
+.container {
+    width: 1200px;
+    border: solid 5px gold;
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    height: 50vh;
+}
+
+.a {
+    background-color: red;
+    border: solid 5px black;
+    width: 20%;
+}
+
+.b {
+    background-color: green;
+    border: solid 5px black;
+    width: 66%;
+    margin: 0 2%;
+}
+
+.c {
+    background-color: blue;
+    border: solid 5px black;
+    width: 9%;
+}
